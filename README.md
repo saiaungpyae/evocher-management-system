@@ -13,6 +13,8 @@ Make sure you have installed all of the following prerequisites on your developm
 
 ## Running Locally
 
+Before running app, make copy from **`.env.local`** to **`.env`**
+
 ```sh
 npm install
 npm start
@@ -27,7 +29,7 @@ https://www.getpostman.com/collections/4fe432f5c556e51566d5
 
 ## Restore database
 
-Unzip seeds/evoucher-management.zip and run the following command
+Unzip **`seeds/evoucher-management.zip`**  and run the following command
 
 ```sh
 mongorestore -d evoucher-management seeds/evoucher-mangement
