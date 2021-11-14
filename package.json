@@ -1,0 +1,40 @@
+{
+  "name": "evocher-management-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saiaungpyae/evocher-management-system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saiaungpyae/evocher-management-system/issues"
+  },
+  "homepage": "https://github.com/saiaungpyae/evocher-management-system#readme",
+  "dependencies": {
+    "@joi/date": "^2.1.0",
+    "body-parser": "^1.19.0",
+    "card-validator": "^8.1.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "http-errors": "^1.8.0",
+    "joi": "^17.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.12",
+    "morgan": "^1.10.0",
+    "randomstring": "^1.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
